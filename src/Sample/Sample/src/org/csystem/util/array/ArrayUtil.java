@@ -181,6 +181,7 @@ public final class ArrayUtil {
     {
         String fmt = String.format("%%0%dd ", n);
 
+
         for (int val : a)
             System.out.printf(fmt, val);
 
